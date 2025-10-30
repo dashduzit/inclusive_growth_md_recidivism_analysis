@@ -13,3 +13,4 @@ We asked: What if reentry was treated as a financial equity problem, not a crimi
 2. Data Collection & Cleaning - Inclusive Growth Score Platform (required dataset) , BLS, Census, DPSCS, HUD, Excel + Python used for data transformation
 3. AWS Integration - S3: Hosted data and slide deck for public access, Athena: Queried cluster-level disparities, QuickSight: Visualized economic and incarceration patterns.
 4. Equity Framing - Our analysis centered race, place, and access - not just raw numbers - to drive human-centered insights.
+## 💡
