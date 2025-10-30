@@ -9,3 +9,4 @@ Baltimore neighborhoods score < 45 on the IGS - signaling disinvestment in Balti
 High poverty, unemployment, and incarceration rates persist.
 1 in 3 Baltimore residents has a criminal record, excluding them from housing and jobs. 
 We asked: What if reentry was treated as a financial equity problem, not a criminal one? 
+## 🛠️
