@@ -23,3 +23,4 @@ Reentry isn't a dead end - it's an OpenLine.
 3. Rent contribution + financial coaching (not free but fair)
 4. Exclusions: violent crimes, active gang ties
 5. Measurable KPIs: empployment rate, recidivism drop, cost savings
+## 💳
