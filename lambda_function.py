@@ -5,7 +5,6 @@ A simple AWS Lambda function that:
 - Saves the results into an S3 bucket
 
 ## Lambda Code (Python 3.9) 
-
 import boto3
 import json
 import time
