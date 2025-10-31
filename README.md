@@ -25,8 +25,13 @@ Reentry isn't a dead end - it's an OpenLine.
 5. Measurable KPIs: empployment rate, recidivism drop, cost savings
 ## 💳 Why Mastercard?
 Mastercard is uniquely positioned to drive financial inclusion for returning citizens. With its global payments infrastructure, deep commitment to social impact through the Inclusive Growth Score, and history of public-private partnerships, Mastercard can bring OpenLine to scale - transforming reentry from a crisi into an opportunity
+## 🔗 References 
 ## 🔗 References
-- [Prison Policy Initiative: Maryland Report](https://www.prisonpolicy.org/origin/md/report.html)
-- [CSG Justice Center: Cost of Recidivism](https://csgjusticecenter.org/publications/the-cost-of-recidivism/)
-- [Maryland DPSCS Reentry Services](https://www.dpscs.state.md.us/rehabservs/reentry/reentry.shtml)
-- [Maryland Matters: 2024 Reform Recommendations](https://marylandmatters.org/2024/12/13/group-tackling-mass-incarceration-in-maryland-releases-recommendations/)
+
+- [Prison Policy Initiative: Origin of Maryland’s Incarcerated Population (2023)](https://www.prisonpolicy.org/origin/md/report.html)  
+- [Prison Policy Initiative: Baltimore City CSA Prison Admissions (2020)](https://www.prisonpolicy.org/origin/md/2020/baltimore_csa.html)  
+- [Prison Policy Initiative: Maryland 2020 Report Overview](https://www.prisonpolicy.org/origin/md/2020/report.html)  
+- [U.S. Census QuickFacts: Baltimore City, MD](https://www.census.gov/quickfacts/fact/table/baltimorecitymaryland/INC110223)  
+- [Baltimore City Open Data – Community Statistical Areas](https://data.baltimorecity.gov/datasets/204beefe92a645d79fdf0969957bbdf8_0/explore?location=39.281551%2C-76.707445%2C16.00)  
+- [Maryland DPSCS – Reentry Services](https://dpscs.maryland.gov/rehabservs/reentry/reentryunit.shtml)  
+- [Mastercard Center for Inclusive Growth](https://www.mastercardcenter.org)
