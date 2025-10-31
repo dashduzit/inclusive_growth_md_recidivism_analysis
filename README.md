@@ -15,4 +15,9 @@ We asked: What if reentry was treated as a financial equity problem, not a crimi
 4. Equity Framing - Our analysis centered race, place, and access - not just raw numbers - to drive human-centered insights.
 ## 💡 Our Solution: ARC Foundation **
 A.R.C = Accountability. Reform. Community.
-Pilot Program Features: Mastercard reloadable card (authorized purchases only), Mandatory employment, drug-free, compliance, and housing engagement, Rent contribution + financial coaching (not free but fair), Exclusions: violent crimes, active gang ties, Measurable KPIs: empployment rate, recidivism drop, cost savings
+Pilot Program Features: 
+Mastercard reloadable card (authorized purchases only) 
+Mandatory employment, drug-free, compliance, and housing engagement
+Rent contribution + financial coaching (not free but fair) 
+Exclusions: violent crimes, active gang ties, 
+Measurable KPIs: empployment rate, recidivism drop, cost savings
