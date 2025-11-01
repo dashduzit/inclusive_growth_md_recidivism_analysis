@@ -19,3 +19,5 @@
 18,24031 700616,north_potomac,montgomery,md,2024,68,181008,4675,0.526,87,0.4,86,42,Yes
 19,24031 705100,chevy_chase,montgomery,md,2024,65,202021,5133,0.55,89,0.5,26,13,Yes
 20,24031 701220,travilah,montgomery,md,2024,58,207750,3824,0.263,46,0.4,84,27,Yes
+
+select * from baltimore_city_vs_montgomery_sheet1_csv
