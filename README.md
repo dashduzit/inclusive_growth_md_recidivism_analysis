@@ -1,7 +1,7 @@
 Data driven solutions to reduce recidivism and promote financial inclusion in under-served Maryland communities using Mastercard's Inclusive Growth Score
 ## 🧠 Project Summary 
 Recidivism in Baltimore isn't about unwillingness to change - it's about structural financial exclusion
-Our project uses Mastercard's Inclusive Growth Score (IGS) and public data to map systemic disparities between Baltimore City and Montgomery County. We propose the ARC Foundation, a place-based reentry program powered by prepaid Mastercard technology, compliance-based housing, and employment incentives
+Our project uses Mastercard's Inclusive Growth Score (IGS) and public data to map systemic disparities between Baltimore City and Montgomery County. We propose the OpenLine Reentry Program, a place-based reentry program powered by prepaid Mastercard technology, compliance-based housing, and employment incentives
 The goal? Reduce recidivism by 10%, generate $17M+ in state savings, and drive inclusive financial opportunity across under-served Maryland communities
 ## 📍 Problem Focus
 Baltimore neighborhoods score < 45 on the IGS - signaling disinvestment in Baltimore City.
@@ -11,9 +11,21 @@ We asked: What if reentry was treated as a financial equity problem, not a crimi
 ## 🛠️  Methodology 
 1. **Cluster Selection** - We analyzed zip-code clusters from: Baltimore City (Penn North, Park Heights) and Montgomery County (Bethesda, North Potomac)
 2. **Data Collection & Cleaning** - Inclusive Growth Score Platform (required dataset) , BLS, Census, DPSCS, HUD, Excel + Python used for data transformation
-3. **AWS Integration** - S3: Hosted data and slide deck for public access, Athena: Queried cluster-level disparities, QuickSight: Visualized economic and incarceration patterns
+3. **AWS Integration** - S3: Hosted data and slide deck for public access and Athena: Queried cluster-level disparities
 4. **Equity Framing** - Our analysis centered race, place, and access - not just raw numbers - to drive human-centered insights
-## 💡 Our Solution: OpenLine Reentry Account
+### Lambda Function
+This project includes an AWS Lambda function ('lambda_function.py') that automates query execution for recidivism analysis
+**Query**: Retrieves top 10 ZIP codes by 2020 imprisonment rate 
+**Runs**: On demand, programatically through 'boto3'
+**Output**: Results exported to S3 at 's3://igs-md-recidivism-analysis/athena-results/'
+**Used For**: Enabling automation, reproducibility, and scalable ETL workflows 
+
+**Technologies Used**:
+- AWS Lambda (Python 3.12 runtime)
+- AWS Athena (serverless query)
+- AWS S3 (storage for query results)
+- 'boto3' SDK
+## 💡 Our Solution: OpenLine Reentry Program
 Reentry isn't a dead end - it's an OpenLine.
 
 **Pilot Program Features:** 
