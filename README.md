@@ -38,7 +38,7 @@ Reentry isn't a dead end - it's an OpenLine.
 4. Exclusions: violent crimes, active gang ties
 5. Measurable KPIs: empployment rate, recidivism drop, cost savings
 ## 💳 Why Mastercard?
-Mastercard is uniquely positioned to drive financial inclusion for returning citizens. With its global payments infrastructure, deep commitment to social impact through the Inclusive Growth Score, and history of public-private partnerships, Mastercard can bring OpenLine to scale - transforming reentry from a crisi into an opportunity
+Mastercard is uniquely positioned to drive financial inclusion for returning citizens. With its global payments infrastructure, deep commitment to social impact through the Inclusive Growth Score, and history of public-private partnerships, Mastercard can bring OpenLine to scale - transforming reentry from a crisis into an opportunity
 ## 🔗 References 
 - [Prison Policy Initiative: Origin of Maryland’s Incarcerated Population (2023)](https://www.prisonpolicy.org/origin/md/report.html)  
 - [Prison Policy Initiative: Baltimore City CSA Prison Admissions (2020)](https://www.prisonpolicy.org/origin/md/2020/baltimore_csa.html)  
