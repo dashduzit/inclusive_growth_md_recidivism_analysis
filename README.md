@@ -14,8 +14,7 @@ We asked: What if reentry was treated as a financial equity problem, not a crimi
 3. **AWS Integration** - S3: Hosted data and slide deck for public access and Athena: Queried cluster-level disparities
 4. **Equity Framing** - Our analysis centered race, place, and access - not just raw numbers - to drive human-centered insights
 ## 🧩 SQL Query Used 
-Select *
-From baltimore_city_vs_montgomery_sheet1_csv
+Select * From baltimore_city_vs_montgomery_sheet1_csv
 Order By imprisonment_rate_2020 (DESC)
 LIMIT 10;
 
