@@ -14,7 +14,7 @@ We asked: What if reentry was treated as a financial equity problem, not a crimi
 3. **AWS Integration** - S3: Hosted data and slide deck for public access and Athena: Queried cluster-level disparities
 4. **Equity Framing** - Our analysis centered race, place, and access - not just raw numbers - to drive human-centered insights
 
-### ⚙️ Lambda Function
+## ⚙️ Lambda Function
 This project includes an AWS Lambda function ('lambda_function.py') that automates query execution for recidivism analysis
 **Query**: Retrieves top 10 ZIP codes by 2020 imprisonment rate 
 **Runs**: On demand, programatically through 'boto3'
