@@ -1,0 +1,21 @@
+﻿cluster_id,census_id,neighborhood,county ,state,year,inclusive_growth,median_income,population,early_edu,enrollment_rate,gini_coeff,national_rank,imprisonment_rate_2020,opportunity_zone
+1,24510 280500,oldtown,baltimore_city,md,2024,32,13289,2173,NULL,NULL,0.7,0,1759,No
+2,24510 150100,sandtown,baltimore_city,md,2024,34,17371,2172,0.543,89,0.5,13,2563,No
+3,24510 030100,fells_point,baltimore_city,md,2024,39,19531,2386,NULL,NULL,0.6,2,178,Yes
+4,24510 160400,edmonson_village,baltimore_city,md,2024,24,23417,1937,NULL,NULL,0.5,24,1636,No
+5,24510 090700,coldstream,baltimore_city,md,2024,22,27174,2950,NULL,NULL,0.4,33,2800,No
+6,24510 200200 ,poppleton,baltimore_city,md,2024,34,27623,2072,1,99,0.4,60,1623,No
+7,24510 130400,penn_north,baltimore_city,md,2024,26,28550,2171,NULL,NULL,0.5,26,1705,No
+8,24510 080500,belair_edison,baltimore_city,md,2024,18,30714,1410,0.188,28,0.5,24,1579,No
+9,24510 090800,druid_heights,baltimore_city,md,2024,30,30972,2709,NULL,NULL,0.5,18,1925,No
+10,24510 260404,east_highlandtown,baltimore_city,md,2024,33,45781,2061,0.032,0,0.5,23,508,Yes
+11,24031 700830,germantown,montgomery,md,2024,40,73182,2845,0.22,36,0.4,87,113,Yes
+12,24031 700722,montgomery_village,montgomery,md,2024,56,76500,5203,NULL,NULL,0.5,28,77,Yes
+13,24031 700704,washington_grove,montgomery,md,2024,60,91493,3020,0.174,25,0.4,77,0,Yes
+14,24031 700105,goshen,montgomery,md,2024,68,110500,6397,0.128,14,0.3,97,45,Yes
+15,24031 703201,rock_creek,montgomery,md,2024,62,116910,7905,0.32,59,0.3,91,149,Yes
+16,24031 700835,clarksburg,montgomery,md,2024,64,124529,4836,0.198,30,0.3,95,47,Yes
+17,24031 701306,olney,montgomery,md,2024,63,173125,2808,0.413,75,0.3,89,45,Yes
+18,24031 700616,north_potomac,montgomery,md,2024,68,181008,4675,0.526,87,0.4,86,42,Yes
+19,24031 705100,chevy_chase,montgomery,md,2024,65,202021,5133,0.55,89,0.5,26,13,Yes
+20,24031 701220,travilah,montgomery,md,2024,58,207750,3824,0.263,46,0.4,84,27,Yes
