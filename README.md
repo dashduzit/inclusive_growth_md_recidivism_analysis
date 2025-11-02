@@ -32,7 +32,7 @@ This project includes an AWS Lambda function ('lambda_function.py') that automat
 - AWS Athena (serverless query)
 - AWS S3 (storage for query results)
 - 'boto3' SDK
-## 💡 Our Solution: OpenLine Reentry Program
+## 💡 Solution: OpenLine Reentry Program
 Reentry isn't a dead end - it's an OpenLine.
 
 **Pilot Program Features:** 
