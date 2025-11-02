@@ -50,5 +50,6 @@ Mastercard is uniquely positioned to drive financial inclusion for returning cit
 - [Prison Policy Initiative: Maryland 2020 Report Overview](https://www.prisonpolicy.org/origin/md/2020/report.html)  
 - [U.S. Census QuickFacts: Baltimore City, MD](https://www.census.gov/quickfacts/fact/table/baltimorecitymaryland/INC110223)  
 - [Baltimore City Open Data – Community Statistical Areas](https://data.baltimorecity.gov/datasets/204beefe92a645d79fdf0969957bbdf8_0/explore?location=39.281551%2C-76.707445%2C16.00)  
-- [Maryland DPSCS – Reentry Services](https://dpscs.maryland.gov/rehabservs/reentry/reentryunit.shtml)  
+- [Maryland DPSCS – Reentry Services](https://dpscs.maryland.gov/rehabservs/reentry/reentryunit.shtml)
+- [Maryland Justice Reinvestment Coordinating Council: Prison Population Drivers (2015)](https://gocpp.maryland.gov/jrcc/documents/presentation-20150729-prison-drivers.pdf)
 - [Mastercard Center for Inclusive Growth](https://www.mastercardcenter.org)
