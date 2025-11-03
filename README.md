@@ -37,11 +37,11 @@ Reentry isn't a dead end - it's an OpenLine.
 
 **Pilot Program Features:** 
 
-1. Mastercard reloadable card (authorized purchases only)
+1. Mastercard reloadable credit card (authorized purchases only)
 2. Mandatory employment, drug-free, compliance, and housing engagement
 3. Rent contribution + financial coaching (not free but fair)
-4. Exclusions: violent crimes, active gang ties
-5. Measurable KPIs: empployment rate, recidivism drop, cost savings
+4. Exclusions: violent crimes, active gang ties, fraud convictions
+5. Measurable KPIs: empployment rates increase, recidivism decrease, Mastercard ROI per participant
 ## 💳 Why Mastercard?
 Mastercard is uniquely positioned to drive financial inclusion for returning citizens. With its global payments infrastructure, deep commitment to social impact through the Inclusive Growth Score, and history of public-private partnerships, Mastercard can bring OpenLine to scale - transforming reentry from a crisis into an opportunity
 ## 🔗 References 
