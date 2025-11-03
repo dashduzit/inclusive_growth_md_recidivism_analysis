@@ -15,8 +15,8 @@ We asked: What if reentry was treated as a financial equity problem, not a crimi
 4. **Equity Framing** - Our analysis centered race, place, and access - not just raw numbers - to drive human-centered insights
 ## 📊 Data Source
 - **excel-to-csv-data-chart.csv**: Primary dataset used for analysis — includes Inclusive Growth Scores, recidivism data, education, and median income by neighborhood cluster
-- Source: Derived from Mastercard IGS scores and Maryland public datasets
-- Tools used: Python (Pandas, Matplotlib), Jupyter Notebook
+- **Source**: Derived from Mastercard IGS scores and Maryland public datasets
+- **Tools used**: Python (Pandas, Matplotlib), Jupyter Notebook
 
 
 ## ⚙️ Lambda Function
