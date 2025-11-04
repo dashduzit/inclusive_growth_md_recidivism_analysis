@@ -48,9 +48,9 @@ Reentry isn't a dead end - it's an OpenLine.
 4. Participant eligibility safeguards (no fraud/gang affiliations/violent offenses)
 
 **KPIs:**
-- Employment rates increase
-- Recidivism decrease
-- Credit & financial stability 
+- Employment rates ↑
+- Recidivism ↓
+- Credit & financial stability ↑
 - ROI measured per participant + cost savings to state 
 
 ## 💳 Why Mastercard?
