@@ -15,17 +15,20 @@ Technologies Used:
 - S3 for query results output 
 """
 
+import json
 import boto3
 import time
-import json
 
 def lambda_handler(event, context):
     client = boto3.client('athena')
+
     query = """
-    Select * from baltimore_city_vs_montgomery_sheet1__csv
-    order by imprisonment_rate_2020 desc
-    LIMIT 10;
+        SELECT *
+        FROM igs_database.baltimore_city_vs_montgomery_sheet1__csv
+        ORDER BY imprisonment_rate_2020 DESC
+        LIMIT 10;
     """
+
     response = client.start_query_execution(
         QueryString=query,
         QueryExecutionContext={
@@ -35,24 +38,32 @@ def lambda_handler(event, context):
             'OutputLocation': 's3://igs-md-recidivism-analysis/athena-results/'
         }
     )
+
     query_execution_id = response['QueryExecutionId']
 
     while True:
         results = client.get_query_execution(QueryExecutionId=query_execution_id)
         status = results['QueryExecution']['Status']['State']
+
         if status in ['SUCCEEDED', 'FAILED', 'CANCELLED']:
             break
 
-        time.sleep(0.2)
-        status == 'SUCCEEDED'
-        return {
-            'status': 'query succeeded',
-            'queryExecutionID':  query_execution_id,
-            'resultLocation': 's3://igs-md-recidivism-analysis/athena-results/' + query_execution_id + '.csv'
-        }
-        else: 
-            return {
-                'status': 'query failed with state: {status}',
-                'queryExecutionID': query_execution_id
-            }
+        time.sleep(0.5)
 
+    if status == 'SUCCEEDED':
+        return {
+            "statusCode": 200,
+            "body": json.dumps({
+                "status": "Query Succeeded",
+                "queryExecutionID": query_execution_id,
+                "resultsLocation": "s3://igs-md-recidivism-analysis/athena-results/" + query_execution_id + ".csv"
+            })
+        }
+    else:
+        return {
+            "statusCode": 500,
+            "body": json.dumps({
+                "status": "Query Failed (" + status + ")",
+                "queryExecutionID": query_execution_id
+            })
+        }
