@@ -24,7 +24,7 @@ This project includes an AWS Lambda function ('lambda_function.py') that automat
 
 1. **Query**: Retrieves top 10 ZIP codes by 2020 imprisonment rate 
 2. **Runs**: On demand, programatically through 'boto3'
-3. **Output**: Results exported to S3 at 's3://igs-md-recidivism-analysis/results/'
+3. **Output**: Results exported to S3 at 's3://igs-md-recidivism-analysis/athena-results/'
 4. **Used For**: Enabling automation, reproducibility, and scalable ETL workflows 
 
 **Technologies Used**:
