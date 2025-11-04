@@ -1,6 +1,7 @@
 **Data-Driven Strategies to Reduce Recidivism & Expand Financial Inclusion in Maryland**
-
+This repository contains the datasets, analysis notebook, AWS pipeline configuration, and Lambda automation code used to support our policy proposal and spatial equity analysis.
 Leveraging Mastercard's Inclusive Growth Score to inform community-centered reentry solutions.
+
 ## 🧠 Project Summary 
 Recidivism in Baltimore is not a matter of personal failure - it is the outcome of systemic financial exclusion.
 This project analyzes neighborhood-level disparities between Baltimore City and Montgomery County using Mastercard's Inclusive Growth Score (IGS), public socioeconomic datasets, and incarceration data. 
