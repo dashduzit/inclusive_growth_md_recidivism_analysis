@@ -18,7 +18,7 @@ Based on our findings, we propose the OpenLine Reentry Program - a place-based r
 ## 🛠️ Methodology 
 1. **Cluster Selection** - Compared Baltimore City and Montgomery County zip-code clusters 
 2. **Data Collection & Cleaning** - Inclusive Growth Score Platform (required dataset), BLS, Census, DPSCS processed in Excel + Python used for data transformation
-3. **AWS Integration** - S3(storage), Glue(schema), Athena(queries), Lambda(automation)
+3. **AWS Integration** - S3: storage, Glue: schema catalog, Athena: SQL querying, Lambda: query automation
 4. **Equity Framing** - Analysis centered race, place and access, not just raw indicators 
 
 ## 📊 Data Source
@@ -55,7 +55,7 @@ Reentry isn't a dead end - it's an OpenLine.
 
 ## 💳 Why Mastercard?
 Mastercard has proven infrastructure for secure, reloadable payments, a public commitment to inclusive economic growth, and global experience in public-private partnerships. 
-This positions Mastercard to transform reentry into an economic mobility engine, not a revolving door
+Mastercard can transform reentry into an economic mobility pipeline, rather than a cycle of incarceration.
 
 ## 🔗 References 
 - [Prison Policy Initiative: Origin of Maryland’s Incarcerated Population (2023)](https://www.prisonpolicy.org/origin/md/report.html)  
