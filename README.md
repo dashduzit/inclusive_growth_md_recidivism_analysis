@@ -1,49 +1,62 @@
-Data driven solutions to reduce recidivism and promote financial inclusion in under-served Maryland communities using Mastercard's Inclusive Growth Score
+**Data-Driven Strategies to Reduce Recidivism & Expand Financial Inclusion in Maryland**
+
+Leveraging Mastercard's Inclusive Growth Score to inform community-centered reentry solutions.
 ## 🧠 Project Summary 
-Recidivism in Baltimore isn't about unwillingness to change - it's about structural financial exclusion
-Our project uses Mastercard's Inclusive Growth Score (IGS) and public data to map systemic disparities between Baltimore City and Montgomery County. We propose the OpenLine Reentry Program, a place-based reentry program powered by prepaid Mastercard technology, compliance-based housing, and employment incentives
-The goal? Reduce recidivism by 10%, generate $17M+ in state savings, and drive inclusive financial opportunity across under-served Maryland communities
-## 📍 Problem Focus
-Baltimore neighborhoods score < 45 on the IGS - signaling disinvestment in Baltimore City.
-High poverty, unemployment, and incarceration rates persist
-1 in 3 Baltimore residents has a criminal record, excluding them from housing and jobs 
-We asked: What if reentry was treated as a financial equity problem, not a criminal one? 
+Recidivism in Baltimore is not a matter of personal failure - it is the outcome of systemic financial exclusion.
+This project analyzes neighborhood-level disparities between Baltimore City and Montgomery County using Mastercard's Inclusive Growth Score (IGS), public socioeconomic datasets, and incarceration data. 
+Based on our findings, we propose the OpenLine Reentry Program - a place-based reentry initiative powered by reloadable Mastercard technology, compliance-based housing, and employment incentives.
+
+**Goal:** Reduce recidivism by 10%, generate $17M+ in state savings, and expand inclusive financial access across under-served Maryland communities.
+
+## 📍 Problem Statement
+- Baltimore neighborhoods score < 45 on the IGS - signaling historic disinvestment.
+- 1 in 3 Baltimore residents has a criminal record - blocking access to housing, financial remedies, and employment
+- Traditional reentry policies treat returning citizens as a criminal issue, not an economic justice issue
+
+**Our approach reframes reentry as a financial equity problem**
+
 ## 🛠️ Methodology 
-1. **Cluster Selection** - Analyzing zip-code clusters from: Baltimore City and Montgomery County
-2. **Data Collection & Cleaning** - Inclusive Growth Score Platform (required dataset) , BLS, Census, DPSCS, Excel + Python used for data transformation
-3. **AWS Integration** - S3: Hosted data and slide deck for public access and Athena: Queried cluster-level disparities
-4. **Equity Framing** - Our analysis centered race, place, and access - not just raw numbers - to drive human-centered insights
+1. **Cluster Selection** - Compared Baltimore City and Montgomery County zip-code clusters 
+2. **Data Collection & Cleaning** - Inclusive Growth Score Platform (required dataset), BLS, Census, DPSCS processed in Excel + Python used for data transformation
+3. **AWS Integration** - S3(storage), Glue(schema), Athena(queries), Lambda(automation)
+4. **Equity Framing** - Analysis centered race, place and access, not just raw indicators 
+
 ## 📊 Data Source
-- **excel-to-csv-data-chart.csv**: Primary dataset used for analysis — includes Inclusive Growth Scores, recidivism data, education, and median income by neighborhood cluster
-- **Source**: Derived from Mastercard IGS scores and Maryland public datasets
-- **Tools used**: Python (Pandas, Matplotlib), Jupyter Notebook
+- **excel-to-csv-data-chart.csv**: Primary dataset used for analysis — includes Inclusive Growth Scores, recidivism data, education, and median income by zip-code clusters
+- **Tools used**: Python (Pandas), Jupyter Notebook, AWS Athena
 
+## ⚙️ AWS Lambda Automation
+This repository includes a Lambda function (lambda_function.py) that automates Athena queries 
+**Function Outputs:**
+- Retrieves Top 10 clusters by imprisonment_rate_2020
+- Writes results to: s3://igs-md-recidivism-analysis/athena-results/
 
-## ⚙️ Lambda Function
-This project includes an AWS Lambda function ('lambda_function.py') that automates query execution for recidivism analysis:
+**Stack:**
+- AWS Lambda (Python 3.12)
+- AWS Athena
+- AWS S3
+- boto3
 
-1. **Query**: Retrieves top 10 ZIP codes by 2020 imprisonment rate 
-2. **Runs**: On demand, programatically through 'boto3'
-3. **Output**: Results exported to S3 at 's3://igs-md-recidivism-analysis/athena-results/'
-4. **Used For**: Enabling automation, reproducibility, and scalable ETL workflows 
-
-**Technologies Used**:
-- AWS Lambda (Python 3.12 runtime)
-- AWS Athena (serverless query)
-- AWS S3 (storage for query results)
-- 'boto3' SDK
-## 💡 Solution: OpenLine Reentry Program
+## 💡 Proposed Solution: OpenLine Reentry Program
 Reentry isn't a dead end - it's an OpenLine.
 
-**Pilot Program Features:** 
+**Key Features:** 
 
-1. Mastercard reloadable credit card (authorized purchases only)
-2. Mandatory employment, drug-free, compliance, and housing engagement
-3. Rent contribution + financial coaching (not free but fair)
-4. Exclusions: violent crimes, active gang ties, fraud convictions
-5. Measurable KPIs: empployment rates increase, recidivism decrease, Mastercard ROI per participant
+1. Reloadable Mastercard credit card - authorized purchases only (no cash misuse)
+2. Structured employment + housing compliance model 
+3. Rent contribution + financial coaching 
+4. Participant eligibility safeguards (no fraud/gang affiliations/violent offenses)
+
+**KPIs:**
+- Employment rates increase
+- Recidivism decrease
+- Credit & financial stability 
+- ROI measured per participant + cost savings to state 
+
 ## 💳 Why Mastercard?
-Mastercard is uniquely positioned to drive financial inclusion for returning citizens. With its global payments infrastructure, deep commitment to social impact through the Inclusive Growth Score, and history of public-private partnerships, Mastercard can bring OpenLine to scale - transforming reentry from a crisis into an opportunity
+Mastercard has proven infrastructure for secure, reloadable payments, a public commitment to inclusive economic growth, and global experience in public-private partnerships. 
+This positions Mastercard to transform reentry into an economic mobility engine, not a revolving door
+
 ## 🔗 References 
 - [Prison Policy Initiative: Origin of Maryland’s Incarcerated Population (2023)](https://www.prisonpolicy.org/origin/md/report.html)  
 - [Prison Policy Initiative: Baltimore City CSA Prison Admissions (2020)](https://www.prisonpolicy.org/origin/md/2020/baltimore_csa.html)  
