@@ -58,7 +58,7 @@ Reentry isn't a dead end - it's an OpenLine.
 ## 💳 Why Mastercard?
 Mastercard has proven infrastructure for secure, reloadable payments, a public commitment to inclusive economic growth, and global experience in public-private partnerships. 
 Mastercard can transform reentry into an economic mobility pipeline, rather than a cycle of incarceration.
----
+
 ## 🔗 References 
 - [Prison Policy Initiative: Origin of Maryland’s Incarcerated Population (2023)](https://www.prisonpolicy.org/origin/md/report.html)  
 - [Prison Policy Initiative: Baltimore City CSA Prison Admissions (2020)](https://www.prisonpolicy.org/origin/md/2020/baltimore_csa.html)  
