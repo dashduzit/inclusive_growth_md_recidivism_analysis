@@ -13,7 +13,7 @@ Based on our findings, we propose the OpenLine Reentry Program - a place-based r
 **Goal:** Reduce recidivism by 10%, generate $17M+ in state savings, and expand inclusive financial access across under-served Maryland communities.
 
 ## 📍 Problem Statement
-- Baltimore neighborhoods score < 45 on the IGS - signaling historic disinvestment.
+- Baltimore neighborhoods on average score < 45 on the IGS - signaling historic disinvestment.
 - 1 in 3 Baltimore residents has a criminal record - blocking access to housing, financial remedies, and employment
 - Traditional reentry policies treat returning citizens as a criminal issue, not an economic justice issue
 
