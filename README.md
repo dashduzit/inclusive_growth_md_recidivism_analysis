@@ -41,8 +41,8 @@ This repository includes a Lambda function (lambda_function.py) that automates A
 - AWS S3
 - boto3
 
-## 💡 Proposed Solution: OpenLine Reentry Program
-Reentry isn't a dead end - it's an OpenLine.
+## 💡 Proposed Solution: OpenLine Reentry Community Program
+OpenLine makes reentry a beginning, not an end
 
 **Key Features:** 
 
