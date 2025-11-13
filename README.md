@@ -10,7 +10,7 @@ Recidivism in Baltimore is not a matter of personal failure - it is the outcome 
 This project analyzes neighborhood-level disparities between Baltimore City and Montgomery County using Mastercard's Inclusive Growth Score (IGS), public socioeconomic datasets, and incarceration data. 
 Based on our findings, we propose the OpenLine Reentry Program - a place-based reentry initiative powered by reloadable Mastercard technology, compliance-based housing, and employment incentives.
 
-**Goal:** Reduce recidivism by 10%, generate $17M+ in state savings, and expand inclusive financial access across under-served Maryland communities.
+**Goal:** Reduce recidivism by 10%, generate $52M+ in state savings, and expand inclusive financial access across under-served Maryland communities.
 
 ## 📍 Problem Statement
 - Baltimore neighborhoods on average score < 45 on the IGS - signaling historic disinvestment.
