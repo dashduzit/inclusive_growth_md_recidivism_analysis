@@ -23,7 +23,7 @@ Based on our findings, we propose the OpenLine Reentry Program - a place-based r
 1. **Cluster Selection** - Compared Baltimore City and Montgomery County zip-code clusters 
 2. **Data Collection & Cleaning** - Inclusive Growth Score Platform (required dataset), BLS, Census, DPSCS processed in Excel + Python used for data transformation
 3. **AWS Integration** - S3: storage, Glue: schema catalog, Athena: SQL querying, Lambda: query automation
-4. **Equity Framing** - Analysis centered race, place and access, not just raw indicators 
+4. **Equity Framing** - Analysis centered income, place and access, not just raw indicators 
 
 ## 📊 Data Source
 - **excel-to-csv-data-chart.csv**: Primary dataset used for analysis — includes Inclusive Growth Scores, recidivism data, education, and median income by zip-code clusters
